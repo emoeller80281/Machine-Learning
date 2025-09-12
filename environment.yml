@@ -1,0 +1,14 @@
+name: pytorch_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.8
+  - pytorch
+  - torchaudio
+  - torchvision
+  - ipykernel
+  - scikit-learn
+  - pandas
+  - nbformat
+prefix: /home/emoeller/miniconda3/envs/pytorch_env
