@@ -1,0 +1,8 @@
+,Embedding 0 (sine),Embedding 1 (cosine),Embedding 2 (sine),Embedding 3 (cosine),Embedding 4 (sine),Embedding 5 (cosine)
+Allen,0.0,0.84,0.91,0.14,-0.76,-0.96
+walked,1.0,-0.42,-0.65,0.96,-0.15,-0.84
+his,0.0,0.14,-0.28,0.41,-0.54,0.65
+dog,1.0,-0.65,-0.15,0.84,-0.96,0.41
+down,0.0,-0.96,-0.54,0.65,0.91,-0.13
+the,1.0,0.96,0.84,0.66,0.42,0.15
+street,0.0,0.66,0.99,0.84,0.27,-0.43
