@@ -11,8 +11,10 @@ def show_heatmaps(matrices, xlabel, ylabel, titles=None, figsize=(2.5, 2.5),
             pcm = ax.imshow(matrix, cmap=cmap)
             if i == num_rows - 1:
                 ax.set_xlabel(xlabel)
+                ax.tick_params(axis='x', labelbottom=False, labeltop=False, bottom=False, top=False)
+                ax.xaxis.set_label_position('top')
             if j == 0:
                 ax.set_ylabel(ylabel)
+                ax.tick_params(axis='y', labelleft=False, labelright=False, left=False, right=False)
             if titles:
                 ax.set_title(titles[j])
-    fig.colorbar(pcm, ax=axes, shrink=0.6)
